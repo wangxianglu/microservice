@@ -1,23 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d6d8ee9f-51b1-4169-ac2e-d21afe15d2e5" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/gateway/.gitignore" afterPath="$PROJECT_DIR$/api-gateway/.gitignore" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/gateway/.mvn/wrapper/maven-wrapper.jar" afterPath="$PROJECT_DIR$/api-gateway/.mvn/wrapper/maven-wrapper.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/gateway/.mvn/wrapper/maven-wrapper.properties" afterPath="$PROJECT_DIR$/api-gateway/.mvn/wrapper/maven-wrapper.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/gateway/mvnw" afterPath="$PROJECT_DIR$/api-gateway/mvnw" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/gateway/mvnw.cmd" afterPath="$PROJECT_DIR$/api-gateway/mvnw.cmd" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/gateway/pom.xml" afterPath="$PROJECT_DIR$/api-gateway/pom.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/gateway/src/main/java/com/microservice/GatewayApplication.java" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/microservice/GatewayApplication.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/gateway/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/gateway/src/test/java/com/microservice/GatewayApplicationTests.java" afterPath="$PROJECT_DIR$/api-gateway/src/test/java/com/microservice/GatewayApplicationTests.java" />
-    </list>
+    <list default="true" id="d6d8ee9f-51b1-4169-ac2e-d21afe15d2e5" name="Default" comment="" />
     <ignored path="microservice_architecture.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/gateway/target/" />
     <ignored path=".idea/dataSources.local.xml" />
+    <ignored path="$PROJECT_DIR$/auth-service/target/" />
+    <ignored path="$PROJECT_DIR$/registry/target/" />
+    <ignored path="$PROJECT_DIR$/dummy-service/target/" />
+    <ignored path="$PROJECT_DIR$/config/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,8 +31,8 @@
       <file leaf-file-name="GatewayApplication.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/microservice/GatewayApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+            <state relative-caret-position="198">
+              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -59,6 +53,7 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/gateway/src/main/java/com/microservice/GatewayApplication.java" />
+        <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/microservice/GatewayApplication.java" />
       </list>
     </option>
   </component>
@@ -515,8 +510,40 @@
       <envs />
       <method />
     </configuration>
-    <list size="1">
+    <configuration default="false" name="AuthServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.microservice.AuthServiceApplication" />
+      <module name="auth-service" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="RegistryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.microservice.RegistryApplication" />
+      <module name="registry" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="DummyServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.microservice.DummyServiceApplication" />
+      <module name="dummy-service" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.microservice.ConfigApplication" />
+      <module name="config" />
+      <envs />
+      <method />
+    </configuration>
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.GatewayApplication" />
+      <item index="1" class="java.lang.String" itemvalue="Spring Boot.AuthServiceApplication" />
+      <item index="2" class="java.lang.String" itemvalue="Spring Boot.RegistryApplication" />
+      <item index="3" class="java.lang.String" itemvalue="Spring Boot.DummyServiceApplication" />
+      <item index="4" class="java.lang.String" itemvalue="Spring Boot.ConfigApplication" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -534,12 +561,12 @@
       <updated>1493303157048</updated>
       <workItem from="1493303160105" duration="973000" />
       <workItem from="1493345551181" duration="1357000" />
-      <workItem from="1493369330468" duration="316000" />
+      <workItem from="1493369330468" duration="778000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2646000" />
+    <option name="totallyTimeSpent" value="3108000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1934" height="1048" extended-state="0" />
@@ -637,8 +664,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/microservice/GatewayApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        <state relative-caret-position="198">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
           <folding />
         </state>
       </provider>

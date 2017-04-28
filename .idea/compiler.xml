@@ -22,13 +22,21 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="auth-service" />
+        <module name="config" />
+        <module name="dummy-service" />
         <module name="gateway" />
         <module name="microservice_architecture" />
+        <module name="registry" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="auth-service" target="1.8" />
+      <module name="config" target="1.8" />
+      <module name="dummy-service" target="1.8" />
       <module name="gateway" target="1.8" />
       <module name="microservice_architecture" target="1.5" />
+      <module name="registry" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
